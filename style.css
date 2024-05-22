@@ -1,0 +1,119 @@
+.top-bar {
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; 
+    font-family: 'Source Code Pro', monospace; 
+}
+
+.top-bar h1 {
+    margin: 0; 
+}
+
+.navbar {
+    margin-top: 10px; 
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px; 
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+video {
+        width: 100%;
+        height: auto;
+      
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    border-radius: 5px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.form-container {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-container textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #0055cc;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #003399;
+}
