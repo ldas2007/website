@@ -117,25 +117,42 @@ video {
 .form-container button:hover {
     background-color: #003399;
 }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f0f0f0;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  tr:hover {
-    background-color: #e5e5e5;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+tr:hover {
+  background-color: #e5e5e5;
+}
+
+
+th:hover {
+  background-color: #ccc;
+}
